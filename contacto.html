@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Rock y más Rock pretende dar a conocer todos los grupos de rock alternativo de Puebla">
+<meta name="keywords" content="rock alternativo, rock Segovia, rock alternativo Puebla">
+<title>Rock y más Rock en Puebla</title>
+<link rel="stylesheet" type="text/css" href="css/gridiculous.css"/>
+<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+</head>
+
+<body>
+	
+    <div class="grid w960">
+
+	<header class="inicio">
+    	<img src="images/header.jpg" alt="Rock y más Rock en Puebla"/>
+    	<h1>Rock y más Rock en Puebla</h1>
+    </header>
+    
+    <nav class="menu">
+    	<ul>
+        	<li><a href="index.html">Inicio</a></li>
+            <li><a href="Nosotros.html">Nosotros</a></li>
+            <li><a href="concierto.html">Conciertos</a></li>
+            <li><a href="contacto.html" class="activa">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <h1>Formulario de contacto</h1>
+
+<form action="" method="post" class="contact" id="general">
+	<label for="name"><span>Nombre:</span></label>
+	<input type="text" name="name" id="name" required></input></br>
+	<label for="typeConsul"><span>Tipo de consulta:</span></label>
+	<select name="typeConsul" id="typeConsul">
+		<option value="laboral">laboral</option>
+		<option value="personal">Personal</option>
+		<option value="otro">otro</option>
+	</select><br>
+	<label for="mail"><span> E-mail: </span></label>
+	<input type="email" name="mail" id="mail" required></input></br>
+	<label for="fon"><span> Teléfono: </span></label>
+	<input type="text" name="fon" id="fon"></input>
+</br>
+<label for="msj">Mensaje</label>
+<textarea name="msj" id="msj" required></textarea></br>
+
+	<input type="checkbox" name="acept" id="acept">Al enviar esto acepta la politica de datos de la empresa conforme a tal ley... si se opone ponerse en contacto con: <a href="mailto:mekkasesto@hotmail.com"> mekkasesto@hotmail.com</input><br>
+	<input type="reset" class="send" value="Borrar"></input>
+	<input type="submit" class="send" value="Enviar"></input>
+</form>
+    
+    <div class="clearfix"></div>
+    <footer>
+    	&copy; Rock y más Rock en Puebla - <a href="#">Aviso Legal</a>
+    </footer>
+    
+    </div>
+</body>
+</html>

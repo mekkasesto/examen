@@ -1,0 +1,399 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+body{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.grid{
+	-moz-box-shadow: 0px -1px 14px #000000;
+	-webkit-box-shadow: 0px -1px 14px #000000;
+	box-shadow: 0px -1px 14px #000000;
+	width: 85%;
+}
+
+header.inicio{
+	width:100%;
+	position:relative;
+}
+
+header.inicio img{
+	width:100%;
+}
+
+header.inicio h1{
+	text-align:right;
+	width:40%;
+	float:right;
+	font-family: 'Indie Flower', cursive;
+	font-size:3em;
+	line-height:1em;
+	position:absolute;
+	top:2em;
+	right:0.5em;
+
+}
+
+/* MENÚ PRINCIPAL */
+nav.menu{
+	width:100%;
+}
+
+nav.menu ul{
+	list-style:none;
+	padding:0;
+	margin:2px 0 0 0;
+}
+
+nav.menu ul li{
+	width:25%;
+	float:left;
+	text-align:center;
+	border-left:2px solid #fff;
+}
+
+nav.menu ul li:first-child{
+	border-left:1px solid #A9A6A6;
+}
+nav.menu ul li:last-child{
+	border-right:1px solid #A9A6A6;
+}
+
+nav.menu ul li a:link, nav.menu ul li a:visited{
+	display:block;
+	padding:10px 0;
+	text-decoration:none;
+	background:#A9A6A6;
+	color:#fff;
+}
+nav.menu ul li a:hover, nav.menu ul li a.activa{
+	background:#595656;
+}
+
+/*conciertos*/
+
+.total{
+	top: 0px;
+	position: absolute;
+	width: 120%;
+	height: 320px;
+	margin: 0 auto;
+	left: -40px;
+	background: #000000;
+}
+
+.total a{
+	text-decoration: none;
+}
+
+.totald{
+	top: 0px;
+	position: absolute;
+	width: 120%;
+	height: 320px;
+	margin: 0 auto;
+	left: -40px;
+	background: #000000;
+	
+}
+
+.totald img{
+	height: 100%;
+}
+
+.total a h1{
+	text-align: center;
+	color: #fff;
+	filter: brightness(75%);
+	font-family: 'Indie Flower', cursive;
+	padding-top: 50px;
+	font-size: 2.8em;
+	
+}
+
+
+
+/* BARRA LATERAL */
+aside{
+	background:#C5CBBE;
+	padding-bottom:3em;
+}
+
+aside h1{
+	font-family: 'Indie Flower', cursive;
+	line-height:1em;
+	margin-top:0.5em;
+	text-align:center;
+	font-size:1.6em;
+}
+
+aside article{
+	border-top:3px solid #fff;
+}
+
+aside article img{
+	margin-top:10px;
+}
+
+/* ARTICLES */
+section h1{
+	color:#D14FC1;
+	font-weight:lighter;
+	font-size:1.8em;
+	line-height:1em;
+}
+
+section h2{
+	color:#595656;
+	margin-top:0.2em;
+	margin-bottom:0;
+	font-size:1.2em;
+	line-height:1.1em;
+}
+
+section article{
+	margin-top:1em;
+	padding:0 !important;
+}
+
+.espacioDerecho{
+	padding-right:0.6em !important;
+	border-right:1px solid #A9A6A6;
+}
+
+.espacioIzquierdo{
+	padding-left:0.6em !important;
+}
+
+section article p.fecha{
+	margin:5px 0 0 0;
+	padding:3px 0 3px 10px;
+	color:#D14FC1;
+	font-weight:bold;
+	font-size:0.8em;
+	background:#E0E273;
+	width:50%;
+}
+.vid{
+	width: 100%;
+	background: #110f0f;
+	height: 100px;
+}
+
+.guitar{
+	width: 140px;
+	height: 140px;
+	float: left;
+}
+
+
+.videog{
+	/*560*/
+	width: 100%;
+	
+
+	
+	
+	/*border: 5px 5px 5px 1 solid #fff;
+	background: #fff;
+	
+	/*margin-left: -280px;*/
+}
+.video iframe{
+margin: 0 auto;
+background: #070606;
+}
+
+figure .flotleft{
+	float: left;
+}
+
+section p{
+	font-size:1em;
+	line-height:1.2em;
+}
+
+/* IMÁGENES */
+figure img{
+	border:2px solid #D14FC1;
+}
+
+figure figcaption{
+	background:#D14FC1;
+	color:#fff;
+	font-size:0.8em;
+	text-align:center;
+}
+
+/*NAV DEL ASIDE*/
+aside nav ul{
+	margin:10px 0;
+}
+
+aside nav ul li{
+	list-style:square;
+	font-size:1em;
+}
+
+aside nav ul li a:link, aside nav ul li a:visited{
+	color: #761E6B;
+	text-decoration:underline;
+}
+
+aside nav ul li a:hover{
+	text-decoration:none;
+}
+
+/* FOOTER */
+footer{
+	background: #325711;
+	color:#fff;
+	margin-top:1em;
+	padding:1em;
+	font-size:0.8em;
+	text-align:center;
+}
+
+footer a:link, footer a:visited{
+	color:#fff;
+	text-decoration:underline;
+}
+
+footer a:hover{
+	text-decoration:none;
+}
+
+.contact{
+	float: left;
+	padding: 30px;
+	width: 100%;
+	box-sizing: border-box;
+	background: #fff;
+	font-size: 12px;
+	color: #666;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+
+}
+
+.contact label{
+	display: block;
+	margin: 0;
+
+}
+
+.contact label > span{
+	float: left;
+	margin-top: 10px;
+	color: #5e5e5e;
+}
+
+.contact input[type="text"], .contact input[type="email"], .contact textarea, .contact select{
+	color: #555;
+	line-height: 15px;
+	height: 30px;
+	width: 100%;
+	padding: 0 10px 0 0;
+	margin-top: 2px;
+	border: 1px solid #e5e5e5;
+	background: #fbfbfb;
+	box-shadow: inset 1px 1px 2px rgb(238,238,238, 0.2);
+}
+
+.contact textarea{
+	width: 100%;
+	padding-bottom: 60px;
+}
+
+.contact .send{
+	background-color: #696464;
+	border-radius: 5px;
+	border: none;
+	padding: 7px 18px;
+	color: #fff;
+	margin-top: 10px;
+}
+
+.contact .send:hover{
+	background-color: #c15658;
+}
+
+
+
+/* Para dispositivos con un ancho menor a 500px */
+@media only screen and (max-width:500px){
+	.total{
+		
+		height: 136px;
+		
+	}
+	.totald
+	{
+		height: 135px;
+	}
+	header img{
+		width: 120%;
+
+
+	}
+	
+	header.inicio h1{
+		font-size:1.4em;
+		line-height:1.2em;
+	}
+	
+	nav.menu ul li{
+	width:100%;
+	border-bottom:2px solid #fff;
+	font-size:1.3em;
+	}
+	nav.menu ul li a:link, nav.menu ul li a:visited{
+	padding:3px 0;
+	}
+	
+	aside h1{
+		font-size:2.3em;
+	}
+	
+	section h1{
+		font-size:2.4em;
+	}
+	
+	section h2{
+	font-size:1.4em;
+	line-height:1.1em;
+}
+section article{
+	margin-top:0.5em;
+	padding:0 !important;
+}
+
+.espacioDerecho{
+	padding-right:0 !important;
+	border-right:none;
+}
+
+.espacioIzquierdo{
+	padding-left:0 !important;
+}
+
+figure figcaption{
+	font-size:1em;
+}
+
+aside nav ul li{
+	list-style:square;
+	font-size:1.3em;
+}
+
+footer{
+	margin-top:0;
+	padding:1em;
+	font-size:1em;
+	text-align:center;
+}
+}
+
