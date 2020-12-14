@@ -324,7 +324,7 @@ footer a:hover{
 
 
 /* Para dispositivos con un ancho menor a 500px */
-@media only screen and (max-width:500px){
+@media only screen and (max-width:800px){
 	.total{
 		
 		height: 136px;
